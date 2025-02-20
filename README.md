@@ -17,6 +17,7 @@ This E-commerce Sales Dashboard is built using Power BI to analyze sales, profit
     
  6. Quarter & City Filters: Interactive filters to analyze data based on city and quarter.
 
+
 ## Tools & Technologies
 🔹 Power BI for data visualization
 
@@ -24,27 +25,28 @@ This E-commerce Sales Dashboard is built using Power BI to analyze sales, profit
 
 🔹 Excel / SQL for data processing (if applicable)
 
-🔢 DAX Measures Used
 
--- Total Sales
+## DAX Measures Used
+
+### Total Sales
 
 Total Sales = SUM(Details[Amount])
 
--- Total Quantity Sold
+### Total Quantity Sold
 
 Total Quantity Sold = SUM(Details[Quantity])
 
--- Total Profit
+### Total Profit
 
 Total Profit = SUM(Details[Profit])
 
--- Average Order Value
+### Average Order Value
 
 Average Order Value = DIVIDE((SUM(Details[Amount]) * SUM(Details[Quantity])), SUM(Details[Quantity]))
 
 This measure calculates the Average Order Value (AOV) by dividing the total sales amount by the total quantity sold.
 
-🔍 Insights Derived
+## Insights Derived
 
 📌 Maharashtra has the highest revenue among all states.
 
@@ -53,20 +55,6 @@ This measure calculates the Average Order Value (AOV) by dividing the total sale
 📌 Harivansh is the top customer in terms of purchase amount.
 
 📌 January had the highest profit among the three months displayed.
-
-🚀 How to Use
-
-1️⃣ Open the Power BI file.
-
-2️⃣ Use the filters (Quarter, City) to customize insights.
-
-3️⃣ Analyze sales trends and customer behavior using interactive visuals.
-
-📂 Project Files
-📁 Ecommerce_Sales.pbix - Power BI file with dashboard
-📁 Dataset.xlsx - Source data used for analysis
-
-
 
 
 
