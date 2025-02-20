@@ -1,5 +1,7 @@
 📊 E-commerce Sales Dashboard
+
 📌 Project Overview
+
 This E-commerce Sales Dashboard is built using Power BI to analyze sales, profits, and customer purchasing trends. The dashboard provides key insights into revenue, profit distribution, and customer behavior across different states, product categories, and payment methods.
 
 ## 📈 Key Features
