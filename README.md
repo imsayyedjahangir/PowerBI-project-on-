@@ -4,6 +4,9 @@
 
 This E-commerce Sales Dashboard is built using Power BI to analyze sales, profits, and customer purchasing trends. The dashboard provides key insights into revenue, profit distribution, and customer behavior across different states, product categories, and payment methods.
 
+![image](https://github.com/user-attachments/assets/02b9f8ba-2ed2-4f37-a80c-73e885fc485a)
+
+
 ## 📈 Key Features
  1. KPIs Overview: Displays total sales, quantity sold, profit, and average order value.
  
